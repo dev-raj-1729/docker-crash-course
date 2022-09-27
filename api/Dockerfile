@@ -4,9 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN npm install 
 
 EXPOSE 4000
-# required for docker desktop port mapping
 
-CMD ["node", "app.js"]
+CMD ["node","app.js"]
